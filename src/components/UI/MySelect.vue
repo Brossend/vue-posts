@@ -27,7 +27,7 @@
     <option
         v-for="options in option"
         :key="options.value"
-        :value="options">
+        :value="options.value">
       {{options.name}}
     </option>
   </select>

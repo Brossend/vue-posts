@@ -15,6 +15,7 @@
     padding: 10px 15px;
     background: none;
     border: 2px solid teal;
+    cursor: pointer
   }
 
   .btn:hover {
