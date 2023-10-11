@@ -20,6 +20,7 @@
 
 <template>
   <select
+      class="select"
       @change="changeOption"
       :value="modelValue"
   >
@@ -34,5 +35,8 @@
 </template>
 
 <style scoped>
-
+  .select {
+    max-height: 44px;
+    border: 2px solid teal
+  }
 </style>

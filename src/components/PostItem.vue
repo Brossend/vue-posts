@@ -18,7 +18,10 @@
       <div><strong>Название:</strong> {{ post.title }}</div>
       <div><strong>Описание:</strong> {{ post.body }}</div>
     </div>
-    <div>
+    <div style="display: flex; flex-direction: row;">
+      <my-button style="margin-left: 15px;" @click="$router.push(`/posts/${post.id}`)">
+        Открыть
+      </my-button>
       <my-button style="margin-left: 15px;" @click="$emit('remove', post)">
         Удалить
       </my-button>
